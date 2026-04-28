@@ -1,6 +1,12 @@
 # AIG 2019 10-K RAG Extraction
 A RAG pipeline that extracts financial data from AIG's 2019 Form 10-K using TF-IDF, a Claude LLM, and PySpark for distributed execution.
 
+## Data 
+
+Source: https://huggingface.co/datasets/eloukas/edgar-corpus
+
+We first extract AIG's 2019 Form 10-K from the dataset, and save it in `data/aig_source_text2019.txt`. 
+
 ## Pipeline
 
 1. **Chunk** — splits the source text (`data/aig_source_text2019.txt`) into overlapping 2000-character chunks
