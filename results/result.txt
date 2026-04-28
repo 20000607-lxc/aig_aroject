@@ -1,0 +1,43 @@
+Overall Accuracy : 100.0%  (15/15)
+Page Hit Rate    : 100.0%  (10/10)
+
+--- Numeric Variables (Millions USD) ---
+Accuracy : 100.0%
+MAE      : 0.00 M USD
+
+--- Categorical Variables ---
+Accuracy  : 100.0%
+Precision : 1.0000
+Recall    : 1.0000
+F1        : 1.0000
+
+--- Per-Variable Summary ---
++-----------------------+----------+---------+---+
+| Variable              | Accuracy | Correct | N |
++-----------------------+----------+---------+---+
+| Business_Sub_Segment  | 100.0%   | 5       | 5 |
+| Premiums_and_Deposits | 100.0%   | 5       | 5 |
+| Reserves_by_Charge    | 100.0%   | 5       | 5 |
++-----------------------+----------+---------+---+
+
+--- Detailed Results ---
++--------+-----------------------+-----------------------+-----------------------+--------+---------+---------+
+| obs_id | Variable              | Ground_Truth          | Extracted             | Conf   | Correct | PageHit |
++--------+-----------------------+-----------------------+-----------------------+--------+---------+---------+
+| Obs_01 | Premiums_and_Deposits | 4086                  | 4086.0                | high   | True    | True    |
+| Obs_02 | Premiums_and_Deposits | 3914                  | 3914.0                | high   | True    | True    |
+| Obs_03 | Premiums_and_Deposits | 3755                  | 3755.0                | high   | True    | True    |
+| Obs_04 | Premiums_and_Deposits | 2758                  | 2758.0                | high   | True    | True    |
+| Obs_05 | Premiums_and_Deposits | 3032                  | 3032.0                | high   | True    | True    |
+| Obs_06 | Reserves_by_Charge    | 71912                 | 71912.0               | high   | True    | True    |
+| Obs_07 | Reserves_by_Charge    | 1140                  | 1140.0                | high   | True    | True    |
+| Obs_08 | Reserves_by_Charge    | 1115                  | 1115.0                | high   | True    | True    |
+| Obs_09 | Reserves_by_Charge    | 6038                  | 6038.0                | high   | True    | True    |
+| Obs_10 | Reserves_by_Charge    | 80376                 | 80376.0               | high   | True    | True    |
+| Obs_11 | Business_Sub_Segment  | Group Retirement      | Group Retirement      | medium | True    | N/A     |
+| Obs_12 | Business_Sub_Segment  | Life Insurance        | Life Insurance        | high   | True    | N/A     |
+| Obs_13 | Business_Sub_Segment  | Institutional Markets | Institutional Markets | high   | True    | N/A     |
+| Obs_14 | Business_Sub_Segment  | Domestic Life         | domestic life         | medium | True    | N/A     |
+| Obs_15 | Business_Sub_Segment  | International Life    | International Life    | medium | True    | N/A     |
++--------+-----------------------+-----------------------+-----------------------+--------+---------+---------+
+========================================================

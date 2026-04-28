@@ -1,0 +1,16 @@
+Variable,Observation_ID,Ground_Truth_Value,Unit_or_Type
+Premiums_and_Deposits,Obs_01,4086,Millions_USD
+Premiums_and_Deposits,Obs_02,3914,Millions_USD
+Premiums_and_Deposits,Obs_03,3755,Millions_USD
+Premiums_and_Deposits,Obs_04,2758,Millions_USD
+Premiums_and_Deposits,Obs_05,3032,Millions_USD
+Reserves_by_Charge,Obs_06,71912,Millions_USD
+Reserves_by_Charge,Obs_07,1140,Millions_USD
+Reserves_by_Charge,Obs_08,1115,Millions_USD
+Reserves_by_Charge,Obs_09,6038,Millions_USD
+Reserves_by_Charge,Obs_10,80376,Millions_USD
+Business_Sub_Segment,Obs_11,Group Retirement,Entity_Name
+Business_Sub_Segment,Obs_12,Life Insurance,Entity_Name
+Business_Sub_Segment,Obs_13,Institutional Markets,Entity_Name
+Business_Sub_Segment,Obs_14,Domestic Life,Entity_Name
+Business_Sub_Segment,Obs_15,International Life,Entity_Name
